@@ -1,9 +1,45 @@
+/*
+colores
+fondo: #F2F2F2
+fondo oscuro: #666666
+para fondo oscuro: #dcdcdc
+*/
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+body{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer{
+    background-color: #666666;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: auto;
+    padding: 5px;
+
+}
+a{
+    text-decoration: none;
+    color:  #dcdcdc ;
+}
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
-    background-color: rgb(210, 210, 210);
+    background-color:#666666 ;
     padding: 1%;
 }
 body img{
@@ -11,12 +47,40 @@ body img{
 }
 /**************************clases**********************************/
 .modal{
-    border: solid 0.5px black;
+    display: grid;
+    align-content: center;
+    border: solid 0.5px rgba(53, 53, 53, 0.758);
     min-width: 175px ;
+    margin: 5px;
+    padding: 10px;
+    justify-content: start;
+    justify-items: start;
 
 }
+.tag{
+    margin: 1px;
+    padding: 2px;
+    background-color: gold ;
+    border-style: unset;
+}
+
 .contenedor1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 2%;
+    justify-content: space-around;
+}
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.miniCont{
+    margin: 2%;
+}
+.miniCont h3{
+    align-self: center;
 }

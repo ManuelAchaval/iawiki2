@@ -10,31 +10,38 @@
 </head>
 
 <body>
-    <img src="./multimedia/403906fc-fe91-45c0-ab98-6f7312c72569.jpg" alt="">
-    <h1>IAwiki</h1>
+    <header id="inicio">
+        <img src="./multimedia/403906fc-fe91-45c0-ab98-6f7312c72569.jpg" alt="">
+        <h1>IAwiki</h1>
+    </header>
+
     <nav class="navbar">
         <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Búsqueda</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#busqueda">Búsqueda</a></li>
+            <li><a href="#contact">Contacto</a></li>
         </ul>
 
+    </nav>
+    <main>
         <section>
-            <div>
-                <div>
+            <div class="contenedor2">
+                <div class="miniCont" id="busqueda">
                     <h3>Buscar por titulo</h3>
                     <input type="search" name="porTitulo" id="porTitulo">
                 </div>
-                <div>
+                <div class="miniCont">
                     <h3>Buscar por tag</h3>
                     <input type="search" name="porTag" id="porTag">
                 </div>
-                <div>
+                <div class="miniCont">
                     <button>crear articulo</button>
                     <button>editar articulo</button>
                 </div>
             </div>
+
         </section>
+
         <section class="contenedor1">
             <div class="modal">
                 <h4>articulo uno</h4>
@@ -42,22 +49,26 @@
                 <button class="tag">tag2</button>
                 <button class="tag">tag3</button>
                 <button class="tag">tag4</button>
-                <button >Ver Articulo</button>
+                <button>Ver Articulo</button>
             </div>
             <div class="modal">
                 <h4>articulo uno</h4>
-                <button>tag1</button>
+                <button class="tag">tag1</button>
             </div>
             <div class="modal">
                 <h4>articulo uno</h4>
-                <button>tag1</button>
+                <button class="tag">tag1</button>
             </div>
             <div class="modal">
                 <h4>articulo uno</h4>
-                <button>tag1</button>
+                <button class="tag">tag1</button>
             </div>
         </section>
-    </nav>
+    </main>
+
+    <footer id="contacto">
+        <h3>Manuel Achaval</h3>
+    </footer>
 </body>
 
 </html>
