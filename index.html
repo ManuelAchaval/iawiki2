@@ -11,7 +11,7 @@
 
 <body>
     <header id="inicio">
-        <img src="./multimedia/403906fc-fe91-45c0-ab98-6f7312c72569.jpg" alt="">
+        <img  class="logo" src="./multimedia/403906fc-fe91-45c0-ab98-6f7312c72569.jpg" alt="">
         <h1>IAwiki</h1>
     </header>
 
@@ -24,7 +24,7 @@
 
     </nav>
     <main>
-        <section>
+        <div>
             <div class="contenedor2">
                 <div class="miniCont" id="busqueda">
                     <h3>Buscar por titulo</h3>
@@ -35,15 +35,15 @@
                     <input type="search" name="porTag" id="porTag">
                 </div>
                 <div class="miniCont">
-                    <button id="crearArt">crear articulo</button>
+                    <button id="crearArt" class="cta">crear articulo</button>
                     <button id="modArt">editar articulo</button>
                 </div>
             </div>
 
-        </section>
+        </div>
 
-        <section class="contenedor1">
-            <div class="modal">
+        <div class="contenedor1">
+            <div class="uncont">
                 <h4>articulo uno</h4>
                 <button class="tag">tag1</button>
                 <button class="tag">tag2</button>
@@ -51,28 +51,33 @@
                 <button class="tag">tag4</button>
                 <button>Ver Articulo</button>
             </div>
-            <div class="modal">
+            <div class="uncont">
                 <h4>articulo uno</h4>
                 <button class="tag">tag1</button>
             </div>
-            <div class="modal">
+            <div class="uncont">
                 <h4>articulo uno</h4>
                 <button class="tag">tag1</button>
             </div>
-            <div class="modal">
+            <div class="uncont">
                 <h4>articulo uno</h4>
                 <button class="tag">tag1</button>
             </div>
-        </section>
+        </div>
     </main>
     <section>
-        <div class="contenedor-modal">
-            <h2>modal</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero similique assumenda numquam labore
-                dolore illum! Cum suscipit doloribus ducimus iste!</p>
-                <a href="#" class="cta">modal</a>
+        <div class="modal-container">
+            <div class="modal modal-close">
+                <p class="close">X</p>
+                <img src="./multimedia/ilustracion.svg" alt="">
+                <div class="modal-texto">
+                    <h2>en desarrollo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, porro?</p>
+                </div>
+            </div>
         </div>
     </section>
+    <script src="main.js"></script>
     <footer id="contacto">
         <h3>Manuel Achaval</h3>
     </footer>
